@@ -15,8 +15,10 @@ function outputResponse(className, message) {
 function handleFormResponse(data) {
   if (data.weather) {
     // TODO: Add temperature to response output
+    var temperature = data.main.temp.toFixed(1); //decimal point control to 1 dec
+    //my code^
     var description = data.weather[0].description;
-    var weatherOutput = `${description}`;
+    var weatherOutput = `${temperature}°C ${description} ANDY IS THE BEST`; //you need to do ${} cuz this will be run in a server. on a terminal.
 
     outputResponse("weather", weatherOutput);
   } else {
@@ -59,6 +61,6 @@ document.addEventListener("DOMContentLoaded", function() {
   var weatherFormElement = document.querySelector("#weather-form");
 
   if (weatherFormElement) {
-    weatherFormElement.addEventListener("submit", handleFormSubmit);
+    weatherFormElement.addEventListener("submit", handleFormSubmit); //this calls handleFormSubmit every time the submit button is pressed
   }
 });
