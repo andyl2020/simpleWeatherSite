@@ -1,0 +1,19 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20191005102303
+Username: DESKTOP-4I1KCO3\Andy L
+RunAs User: DESKTOP-4I1KCO3\Andy L
+Configuration Name: 
+Machine: DESKTOP-4I1KCO3 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 1992
+PSVersion: 5.1.17763.592
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.592
+BuildVersion: 10.0.17763.592
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./powershell.txt
