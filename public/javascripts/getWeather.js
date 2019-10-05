@@ -51,7 +51,7 @@ function handleFormSubmit(event) {
     method: "get",
     headers: { "Content-Type": "application/json" }
   })
-    .then(r => r.json())
+    .then(r => r.json()) //get rrequest happens, then the output becomes r, then r becomes data in the next line
     .then(data => handleFormResponse(data));
 }
 
