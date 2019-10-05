@@ -42,6 +42,11 @@ main {
   opacity: 1;
 }
 
+/* DONE: Add opacity setting for loading state */
+.Response .loading {
+  opacity: 0.1; 
+}
+
 /* TODO: Add opacity setting for loading state */
 
 /* Desktop styles */

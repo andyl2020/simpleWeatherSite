@@ -46,6 +46,9 @@ function handleFormSubmit(event) {
   event.preventDefault();
   document.activeElement.blur();
 
+  // DONE: Add loading state output
+  outputResponse("loading", "..."); //shows ... when loading. im assuming loading is a valid param. 
+
   // TODO: Add loading state output
   fetch(`/weather/${getCityInputValue()}`, {
     method: "get",
