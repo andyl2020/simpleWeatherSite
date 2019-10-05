@@ -17,3 +17,26 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is ./powershell.txt
+PS C:\Users\Andy L\Documents\7_Personal projects\5_hackathons\1_localHackDay2019\AWS_project\nwplus-aws-workshop> just npm installed eslint
+just : The term 'just' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ just npm installed eslint
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (just:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+just : The term 'just' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ just npm installed eslint
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (just:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Andy L\Documents\7_Personal projects\5_hackathons\1_localHackDay2019\AWS_project\nwplus-aws-workshop> npm install
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (cur
+rent: {"os":"win32","arch":"x64"})
+
+audited 2644 packages in 7.606s
+found 0 vulnerabilities
