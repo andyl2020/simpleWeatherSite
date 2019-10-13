@@ -7,7 +7,7 @@ var request = require("request");
 var fakeWeatherData = require("./data/weather.json");
 
 var API_ENDPOINT = "https://api.openweathermap.org/data/2.5/weather";
-var API_KEY = "ea3feb601ee87ef1b7f8d40abbaad8ca";
+/*var API_KEY = "ea3feb601ee87ef1b7f8d40abbaad8ca";*/
 
 var app = express();
 

@@ -18,7 +18,7 @@ function handleFormResponse(data) {
     var temperature = data.main.temp.toFixed(1); //decimal point control to 1 dec
     //my code^
     var description = data.weather[0].description;
-    var weatherOutput = `${temperature}°C ${description} ANDY IS THE BEST`; //you need to do ${} cuz this will be run in a server. on a terminal.
+    var weatherOutput = `${temperature}°C ${description} ABC`; //you need to do ${} cuz this will be run in a server. on a terminal.
 
     outputResponse("weather", weatherOutput);
   } else {
@@ -54,7 +54,7 @@ function handleFormSubmit(event) {
     method: "get",
     headers: { "Content-Type": "application/json" }
   })
-    .then(r => r.json()) //get rrequest happens, then the output becomes r, then r becomes data in the next line
+    .then(r => r.json()) //get rrequest happens, then the output becomes r, then r(json) becomes data in the next line
     .then(data => handleFormResponse(data));
 }
 
